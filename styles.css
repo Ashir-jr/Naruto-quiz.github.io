@@ -1,0 +1,131 @@
+/* (A) WRAPPER */
+#quizWrap {
+  max-width: 600px;
+  margin: 0 auto;
+  /* RECOMMENDED FIXED HEIGHT IF YOU HAVE CONTENT BELOW THE QUIZ */
+  /* SO THAT PAGE LAYOUT DOES NOT "JUMP" */
+  /* height: 250px; */
+}
+
+/* (B) QUESTION */
+#quizQn {
+  padding: 20px;
+  background: hsl(24, 100%, 52%);
+  color: #080505;
+  font-size: 24px;
+  border-radius: 5px;
+}
+
+/* (C) ANSWERS */
+#quizAns {
+  margin: 10px 0;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+}
+
+#quizAns input[type=radio] {
+  display: none;
+}
+
+#quizAns label {
+  background: #fafafa;
+  border: 1px solid #130101;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#quizAns label.correct {
+  background: #d8ffc4;
+  border: 1px solid #60a03f;
+}
+
+#quizAns label.wrong {
+  background: #ffe8e8;
+  border: 1px solid #c78181;
+}
+
+/* PAGE & BODY */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(images/naruto6.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+/* WIDGET */
+.widget-wrap {
+  width: 300px;
+  padding: 30px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+/* FOOTER */
+#code-boxx {
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+#code-boxx a {
+  display: inline-block;
+  border: 0;
+  padding: 4px;
+  text-decoration: none;
+  background: #0e0000;
+  color: #fff;
+}
+
+.container {
+  text-align: center;
+  max-width: 400px;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: background-color 0.2s ease;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+

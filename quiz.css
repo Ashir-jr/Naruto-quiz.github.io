@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f2f2f2, #e6e6e6);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("images/Naruto.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+/* WIDGET */
+.widget-wrap {
+    width: 250px;
+    padding: 60px;
+    border-radius: 20px;
+    background: #fa69269c;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 15px;
+    background-color: #e8ff18;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.2s ease;
+}
+
+.cta-button:hover {
+    background-color: #ff8e32;
+}
